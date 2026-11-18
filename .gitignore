@@ -1,0 +1,27 @@
+# Runtime database and SQLite sidecars
+resourcebridge.db
+resourcebridge.db-wal
+resourcebridge.db-shm
+*.db-wal
+*.db-shm
+
+# External/cache files created at runtime
+frontdoor_il_cache.json
+frontdoor_il_cache_meta.json
+zip_centroids.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.zip
